@@ -34,6 +34,6 @@ dependencies {
 
 jar { 
 	manifest {
-		attributes("Main-class": "com.bangsapabbi.helloworld.HelloWorld")
+		attributes("Main-Class": "com.bangsapabbi.helloworld.HelloWorld")
 	}
 }
