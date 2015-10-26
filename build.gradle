@@ -33,3 +33,8 @@ dependencies {
     testCompile 'junit:junit:4.11'
 }
 
+jar { 
+	manifest {
+		attributes("Main-class": "com.bangsapabbi.helloworld.HelloWorld")
+	}
+}
